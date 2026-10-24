@@ -1,0 +1,36 @@
+{
+  "repository": "https://github.com/neuqrui/EOPSA",
+  "paper": "https://arxiv.org/abs/2609.34519",
+  "original_assets": {
+    "eopsa-mascot.png": "https://github.com/neuqrui/EOPSA/blob/main/assets/eopsa-mascot.png",
+    "eopsa-logo.svg": "https://github.com/neuqrui/EOPSA/blob/main/assets/eopsa-logo.svg",
+    "method.svg": "https://github.com/neuqrui/EOPSA/blob/main/assets/method.svg",
+    "results.png": "https://github.com/neuqrui/EOPSA/blob/main/assets/results.png",
+    "training_dynamics.png": "https://github.com/neuqrui/EOPSA/blob/main/assets/training_dynamics.png",
+    "trr_idr.png": "https://github.com/neuqrui/EOPSA/blob/main/assets/trr_idr.png",
+    "efficiency.png": "https://github.com/neuqrui/EOPSA/blob/main/assets/efficiency.png",
+    "github.svg": "https://github.com/neuqrui/EOPSA/blob/main/assets/github.svg",
+    "huggingface.svg": "https://github.com/neuqrui/EOPSA/blob/main/assets/huggingface.svg"
+  },
+  "rendered_from_paper_source": [
+    "kl_concentration_lorenz_max4096.pdf",
+    "kl_concentration_taxonomy_max4096.pdf"
+  ],
+  "note": "Research figures are original assets or direct rasterizations; not reconstructed data. Decorative particles are conceptual. The optional ARS companion is explicitly illustrative.",
+  "results-hd.png": {
+    "source": "eopsa-paper.pdf",
+    "page": 7,
+    "dpi": 600,
+    "crop_points": [
+      105.96,
+      135,
+      506.04,
+      400.08
+    ],
+    "dimensions": [
+      3334,
+      2209
+    ],
+    "note": "Direct PDF rasterization, table body only. Caption is displayed separately on the page."
+  }
+}
