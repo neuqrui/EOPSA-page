@@ -18,3 +18,7 @@ body{font-size:16px;color:#242b3d}.nav-links,.button,.hero-summary strong,.autho
 #ambient-particles{position:fixed;inset:0;width:100%;height:100svh;z-index:20;pointer-events:none}
 .reading-progress{position:absolute;bottom:-1px;left:0;width:100%;height:3px;background:#e9e7f320;pointer-events:none;overflow:hidden}.reading-progress>span{display:block;width:100%;height:100%;transform:scaleX(var(--reading-progress,0));transform-origin:left center;background:linear-gradient(90deg,#477bd9 0%,#8a5ec9 35%,#df79a5 67%,#69b7bd 100%);box-shadow:0 0 8px #987ac835;will-change:transform}
 .results-figure .figure-open{padding:8px}.results-figure .figure-open img{width:100%;height:auto}@media(max-width:640px){.results-figure .figure-open{padding:4px}}
+
+/* Compact, static navigation brand shares the hero letter palette. */
+.nav-brand{gap:9px;flex-shrink:0}.nav-brand .nav-mascot{width:40px;height:40px;object-fit:contain;animation:none}.nav-brand .nav-wordmark{font-size:28px;line-height:1.15;letter-spacing:-1.5px;padding-right:2px}.nav-brand .nav-wordmark>span{transform:none;animation:none;filter:none;background-size:100% 100%}
+@media(max-width:640px){.nav-brand{gap:7px}.nav-brand .nav-mascot{width:34px;height:34px}.nav-brand .nav-wordmark{font-size:25px}}
